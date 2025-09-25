@@ -115,5 +115,30 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(350 85% 55% / 0.02) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(30 85% 60% / 0.02) 0%, transparent 50%),
+      linear-gradient(135deg, transparent 25%, hsl(0 0% 0% / 0.01) 25%, hsl(0 0% 0% / 0.01) 50%, transparent 50%, transparent 75%, hsl(0 0% 0% / 0.01) 75%);
+    background-size: 400px 400px, 400px 400px, 60px 60px;
+    background-position: 0 0, 200px 200px, 0 0;
+  }
+  
+  /* Classic decorative elements */
+  .classic-pattern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 2px,
+        hsl(350 85% 55% / 0.01) 2px,
+        hsl(350 85% 55% / 0.01) 4px
+      );
+    pointer-events: none;
   }
 }
