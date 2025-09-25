@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import pizza from "@/assets/pizza.jpg";
 import burger from "@/assets/burger.jpg";
+import chickenBiryani from "@/assets/chicken-biryani.jpg";
+import paneerTikka from "@/assets/paneer-tikka.jpg";
 
 const dishes = [
   {
@@ -33,7 +35,7 @@ const dishes = [
   {
     id: 3,
     name: "Chicken Biryani",
-    image: pizza, // Reusing image for demo
+    image: chickenBiryani,
     price: 349,
     originalPrice: 449,
     rating: 4.8,
@@ -45,7 +47,7 @@ const dishes = [
   {
     id: 4,
     name: "Paneer Tikka",
-    image: burger, // Reusing image for demo
+    image: paneerTikka,
     price: 249,
     originalPrice: 299,
     rating: 4.3,
