@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/f0b0f5d8-65f7-47af-a7da-5056828e93e9
+**URL**:[ https://lovable.dev/projects/f0b0f5d8-65f7-47af-a7da-5056828e93e9](https://zomato-bharat.lovable.app/)
 
 ## How can I edit this code?
 
